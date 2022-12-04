@@ -1,39 +1,44 @@
 import React from 'react';
-import { Col, Container, Row} from 'react-bootstrap';
+import  Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+
 import Cards from './Cards';
 
 
 
-let Content = ()=> {
+let Classes = ()=> {
     return(
         <Container  className='ml-1' >
             <Row >
                 <Col >
                     <Row xs={1} md={2} lg={3} >
                         
-                        <Container className='mt-1'>
+                        <Container style={{ paddingTop: '1rem' }}>
                             <Cards />
                         </Container>
-                        <Container className='mt-1'>
-                            <Cards />
-                        </Container><Container className='mt-1'>
+                        <Container style={{ paddingTop: '1rem' }}>
                             <Cards />
                         </Container>
-                        <Container className='mt-1'>
+                        <Container style={{ paddingTop: '1rem' }}>
                             <Cards />
                         </Container>
-                        <Container className='mt-1'>
+                        <Container style={{ paddingTop: '1rem' }}>
                             <Cards />
                         </Container>
-                        <Container className='mt-1'>
+                        <Container style={{ paddingTop: '1rem' }}>
                             <Cards />
                         </Container>
-                        <Container className='mt-1'>
-                            <Cards />
-                        </Container><Container className='mt-1'>
+                        <Container style={{ paddingTop: '1rem' }}>
                             <Cards />
                         </Container>
-                        <Container className='mt-1'>
+                        <Container style={{ paddingTop: '1rem' }}>
+                            <Cards />
+                        </Container>
+                        <Container style={{ paddingTop: '1rem' }}>
+                            <Cards />
+                        </Container>
+                        <Container style={{ paddingTop: '1rem' }}>
                             <Cards />
                         </Container>
                        
@@ -43,4 +48,4 @@ let Content = ()=> {
         </Container>
     )
 }
-export default Content;
+export default Classes;
